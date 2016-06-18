@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twin Cities, Minnesota Demographics</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Twin Cities, Minnesota Demographics">
+  <meta name="author" content="Bill Rowe">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/default.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Twin Cities, Minnesota Demographics</h1>
+    <h2>Exploration of Race, Income, Age by Zip Code</h2>
+    <p>Bill Rowe<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Twin Cities, MN Metropolitan Statistical Area</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This Shiny app uses choropleth maps to explore the demographics of the Twin Cities Metropolitan Statistical Area.  The Twin Cities MSA that includes 10 counties in Minnesota and 2 counties in western Wisconsin (separated by the St. Croix River). A choropleth map (from Greek χώρο (&quot;area/region&quot;) + πλήθος (&quot;multitude&quot;)) is a thematic map.  Areas are colored in proportion to the value of a statistic like per-capita income or percent Hispanic as examples.</p>
+
+<p>Metropolitan Statistical Areas <a href="https://en.wikipedia.org/wiki/Metropolitan_statistical_area">Metropolitan Statistical Area (MSA)</a> are defined by the Census Bureau. The regions in the images are the Census Bureau&#39;s approximation (<a href="https://www.census.gov/geo/reference/zctas.html">Zip Code Tabulated Areas (ZCTAS)</a>) of postal zip codes.  All the data is from the 2013 <a href="http://www.census.gov/acs/www/">American Community Survey (ACS)</a> accessed via the <a href="https://cran.r-project.org/web/packages/choroplethr/choroplethr.pdf">choropleth</a> package created by <a href="http://www.arilamstein.com/">Ari Lamestein</a>.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>How to Use</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The <strong><em>Maps</em></strong> tab shows the distribution of a demographic statistic across the statistical area. The drop down can be used to chose the demographic that will be presented on the map of the Twin Cities.  The <strong><em>Plots</em></strong> tab creates scatter plots of the demographics versus other other selected demographics.  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>How to Use</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Maps</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The following maps imply that the Twin Cities MSA is an example of geographical segregation.  The African American population seems  to cluster in the ZCTAs in the center of the city, and the White population seems to cluter in the ZCTAs outside the center of the city.  This is also true for the hispanic and asian populationns (mostly Hmong and Vietnamese).</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Slide 5</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>On the <strong><em>Plots</em></strong> tab, the demographics can be plotted against each other. The following is a plot of the fraction of white residents vs the fraction of black residents.  This seems to mirror the </p>
+
+<p>The R code (server.R, ui.R and Top.md) for this app can be found on <a href="https://github.com/wer61537/shiny_app">GitHub</a>.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Twin Cities, MN Metropolitan Statistical Area'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='How to Use'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How to Use'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Maps'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Slide 5'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='NA'>
+         6
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
