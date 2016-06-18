@@ -92,6 +92,6 @@ Source of Data and Location of R Code
 
 <small>All the data is from the 2013 [American Community Survey (ACS)](http://www.census.gov/acs/www/) accessed via the [choropleth](https://cran.r-project.org/web/packages/choroplethr/choroplethr.pdf) package created by [Ari Lamestein](http://www.arilamstein.com/).  </small>
 
-The R code (server.R, ui.R and Top.md) for the Shiny app can be found on GitHub at https://github.com/wer61537/shiny_app.  The Shiny app can be found at https://wer61537.shinyapps.io/shiny_app/.</small>
+<small>The R code (server.R, ui.R and Top.md) for the Shiny app can be found on GitHub at https://github.com/wer61537/shiny_app.  The Shiny app can be found at https://wer61537.shinyapps.io/shiny_app/.</small>
 
 <small>The R code for this presentation can be found at https://github.com/wer61537/slidify_demo.</small>
