@@ -40,13 +40,22 @@ How to Use the Plots Tab
 
 <small>The ***Plots*** tab creates scatter plots of the demographics versus other other selected demographics.  As the page loads or as different demographics are selected in the two drop down selectors, the graph is updated.</small> 
 
-<small>The plot of the fraction of white residents vs the fraction of black residents.  This seems to mirror the geographic separation of ethnic groups seen in the distribution overlayed on the map of the MSA.</small> 
+<small>The plot of the fraction of "white" residents vs the fraction of black residents, below, seems to mirror the geographic separation of ethnic groups seen in the distribution overlayed on the map of the MSA.  The smaller the percentage of blacks, Asians or hispanics, the higher the percentage of whites in the zip code. </small> 
 
+</br></br></br></br></br>
+
+<div align="center">
+<img src="white_vs_black.png" width=1067 height=800>
+</div>
 
 ***
 
 <div align="center">
-<img src="white_vs_black.png" width=1067 height=800>
+<img src="white_vs_hispanic.png" width=1067 height=800>
+</div>
+
+<div align="center">
+<img src="white_vs_asian.png" width=1067 height=800>
 </div>
 
 
